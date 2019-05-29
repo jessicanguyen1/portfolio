@@ -2,7 +2,14 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 0.2em;
+}
+
 body {
+  margin-top: 25px;
   background: rgb(238, 174, 202);
   background: radial-gradient(
     circle,
@@ -12,9 +19,11 @@ body {
 }
 
 .navigation {
-  text-align: center;
+  text-align: left;
 }
 
 nav ul li {
   display: inline-block;
+  font-size: 20px;
+  padding: 0px 20px;
 }
