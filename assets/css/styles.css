@@ -1,5 +1,5 @@
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 
 a {
@@ -8,22 +8,81 @@ a {
   letter-spacing: 0.2em;
 }
 
-body {
-  margin-top: 25px;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 1) 100%
-  );
+a:hover {
+  color: #ffffff;
 }
 
-.navigation {
+body {
+  margin-top: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #007991; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to left,
+    #78ffd6,
+    #007991
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to left,
+    #78ffd6,
+    #007991
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* Navigation section */
+.left-nav {
   text-align: left;
+}
+
+.right-nav {
+  text-align: right;
+}
+
+.github {
+  background-image: url("../images/github.png");
+  background-repeat: no-repeat;
+}
+
+.linkedin {
+  background-image: url("../images/linkedin.png");
+  background-repeat: no-repeat;
+}
+
+.social {
+  display: inline-block;
+  text-align: right !important;
+  height: 40px;
+  width: 40px;
+  padding: 0 5px;
 }
 
 nav ul li {
   display: inline-block;
   font-size: 20px;
   padding: 0px 20px;
+}
+
+/* About section */
+#about {
+  text-align: center;
+  color: #ffffff;
+}
+
+#about h1 {
+  padding-top: 100px;
+  font-weight: 700 !important;
+}
+
+#about p {
+  font-size: 30px;
+}
+
+#work {
+  display: inline-block;
+  border: solid 4px #ffffff;
+  padding: 15px 40px;
+}
+
+#portfolio {
+  margin-top: 2000px;
 }
