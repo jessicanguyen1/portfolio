@@ -49,19 +49,60 @@
         </nav>
       </div>
 
-      <!-- About section -->
-      <div class="row" id="about">
-        <h1>Hello, I'm Jessica.</h1>
-        <p>
-          Recent student at UC Berkeley Extension Coding Boot Camp 2019 Cohort,
-          seeking a role as a Front End developer to contribute to building
-          beautiful and functional UI's.
-        </p>
+      <!-- Contact section -->
+      <div id="contact">
+        <h3>CONTACT ME</h3>
+        <form action="">
+          <div class="row">
+            <!-- Name -->
+            <div class="two columns">
+              <label for="name">Your Name*</label>
+            </div>
+            <div class="seven columns">
+              <input class="u-full-width" type="name" placeholder="" />
+            </div>
+          </div>
 
-        <a href="#portfolio" id="work">SEE MY WORK</a>
+          <!-- Email -->
+          <div class="row">
+            <div class="two columns">
+              <label for="email">Your Email*</label>
+            </div>
+            <div class="seven columns">
+              <input class="u-full-width" type="email" placeholder="" />
+            </div>
+          </div>
+
+          <!-- Subject -->
+          <div class="row">
+            <div class="two columns">
+              <label for="subject">Subject*</label>
+            </div>
+            <div class="seven columns">
+              <input class="u-full-width" type="subject" placeholder="" />
+            </div>
+          </div>
+
+          <!-- Message -->
+          <div class="row">
+            <div class="two columns">
+              <label for="exampleMessage">Message*</label>
+            </div>
+            <div class="seven columns">
+              <textarea
+                class="u-full-width"
+                placeholder=""
+                id="exampleMessage"
+              ></textarea>
+              <input
+                class="button-primary u-full-width"
+                type="submit"
+                value="Send"
+              />
+            </div>
+          </div>
+        </form>
       </div>
-
-      <div id="portfolio">Blah</div>
     </div>
 
     <script src="assets/dist/basicScroll.min.js"></script>
