@@ -20,3 +20,11 @@ i {
   padding-top: 15px;
   color: #ffffff;
 }
+
+.two {
+  margin-left: 100px;
+}
+
+.seven {
+  margin-left: 90px !important;
+}
