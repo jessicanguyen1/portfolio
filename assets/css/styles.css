@@ -62,6 +62,21 @@ nav ul li {
   padding: 0px 20px;
 }
 
+/* Profile pic */
+.profile-pic {
+  height: 180px;
+  width: 180px;
+  border: solid 3px white;
+  margin: auto;
+  border-radius: 90px;
+  background: url(https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg);
+  background-size: 399px;
+  background-position-x: -140px;
+  background-position-y: -13px;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+
 /* About section */
 #about {
   text-align: center;
@@ -69,7 +84,7 @@ nav ul li {
 }
 
 #about h1 {
-  padding-top: 100px;
+  padding-top: 60px;
   font-weight: 700 !important;
   font-family: "Pacifico", cursive;
   font-weight: 50 !important;
