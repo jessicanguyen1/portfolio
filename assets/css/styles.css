@@ -71,6 +71,8 @@ nav ul li {
 #about h1 {
   padding-top: 100px;
   font-weight: 700 !important;
+  font-family: "Pacifico", cursive;
+  font-weight: 50 !important;
 }
 
 #about p {

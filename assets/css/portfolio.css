@@ -12,6 +12,7 @@
   padding: 50px;
   max-height: 300px;
   max-width: 300px;
+  background: transparent;
 }
 
 #u-pick p {

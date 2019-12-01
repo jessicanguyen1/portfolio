@@ -14,8 +14,20 @@
     <link rel="stylesheet" href="assets/css/styles.css" />
     <link rel="stylesheet" href="assets/css/contact.css" />
     <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
+    <script>
+      $("#logo img").hover(
+        function() {
+          $(this).attr("src", "./assets/images/outlinelogo.png ");
+        },
+        function() {
+          $(this).attr("src", "./assets/images/upicklogo3d.png");
+        }
+      );
+    </script>
+
     <div class="container">
       <!-- Navigation section -->
       <div class="navigation">
@@ -56,7 +68,9 @@
 
     <div class="row" id="u-pick">
       <h1>
-        <img src="./assets/images/outlinelogo.png" alt="u-pick logo" />
+        <a href="#" id="logo">
+          <img src="./assets/images/upicklogo3d.png" alt="u-pick-logo" />
+        </a>
       </h1>
 
       <p>
