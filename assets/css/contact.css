@@ -21,10 +21,15 @@ i {
   bottom: 46px;
 }
 
-.seven {
-  margin-left: 90px !important;
+i.msg {
+  position: relative;
+  bottom: -30px;
 }
 
 input.dummy {
+  padding-left: 35px;
+}
+
+textarea.dummy {
   padding-left: 35px;
 }
