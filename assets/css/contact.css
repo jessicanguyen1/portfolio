@@ -1,5 +1,6 @@
 #contact {
-  border: solid 1px #ffffff;
+  /* border: solid 1px #ffffff; */
+  border: solid 4px #ffffff;
   padding: 35px;
   margin-top: 50px;
 }
@@ -11,4 +12,9 @@ h3 {
 
 .button {
   text-align: center;
+}
+
+i {
+  float: right;
+  padding-top: 15px;
 }
