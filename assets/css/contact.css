@@ -16,15 +16,15 @@ h3 {
 }
 
 i {
-  float: right;
-  padding-top: 15px;
-  color: #ffffff;
-}
-
-.two {
-  margin-left: 100px;
+  position: relative;
+  left: 10px;
+  bottom: 46px;
 }
 
 .seven {
   margin-left: 90px !important;
+}
+
+input.dummy {
+  padding-left: 35px;
 }
