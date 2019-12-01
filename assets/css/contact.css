@@ -1,6 +1,7 @@
 #contact {
   /* border: solid 1px #ffffff; */
   border: solid 4px #ffffff;
+  border-radius: 20px;
   padding: 35px;
   margin-top: 50px;
 }
@@ -17,4 +18,5 @@ h3 {
 i {
   float: right;
   padding-top: 15px;
+  color: #ffffff;
 }
