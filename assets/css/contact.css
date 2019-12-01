@@ -33,3 +33,7 @@ input.dummy {
 textarea.dummy {
   padding-left: 35px;
 }
+
+.col-height {
+  height: 60px;
+}
