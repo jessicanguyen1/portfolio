@@ -17,17 +17,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
   <body>
-    <script>
-      $("#logo img").hover(
-        function() {
-          $(this).attr("src", "./assets/images/outlinelogo.png ");
-        },
-        function() {
-          $(this).attr("src", "./assets/images/upicklogo3d.png");
-        }
-      );
-    </script>
-
     <div class="container">
       <!-- Navigation section -->
       <div class="navigation">
@@ -79,5 +68,16 @@
         is here to help come to a consensus.
       </p>
     </div>
+
+    <script>
+      $("#logo img").hover(
+        function() {
+          $(this).attr("src", "./assets/images/outlinelogo.png ");
+        },
+        function() {
+          $(this).attr("src", "./assets/images/upicklogo3d.png");
+        }
+      );
+    </script>
   </body>
 </html>
