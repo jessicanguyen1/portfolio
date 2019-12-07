@@ -19,3 +19,16 @@
   font-size: 30px;
   text-align: center;
 }
+
+.ham {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  nav .row {
+    display: none;
+  }
+  .ham {
+    display: block;
+  }
+}
