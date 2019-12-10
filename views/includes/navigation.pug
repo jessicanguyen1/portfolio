@@ -4,13 +4,13 @@
             .nine.columns.left-nav
                 ul
                     li
-                        a(href="/") ABOUT
+                        a(href="/" class=(path === "/" ? "active" : "")) ABOUT
                     li
-                        a(href="/portfolio") PORTFOLIO
+                        a(href="/portfolio" class=(path === "/portfolio" ? "active" : "")) PORTFOLIO
                     li
-                        a(href="/contact") CONTACT
+                        a(href="/contact" class=(path === "/contact" ? "active" : "")) CONTACT
                     li 
-                        a(href="/resume") RESUME
+                        a(href="/resume" class=(path === "/resume" ? "active" : "")) RESUME
             .three.columns.right-nav
                 a(href="https://github.com/jessicanguyen1" target="_blank" class="social github")
                 a(href="https://www.linkedin.com/in/jessica-nguyen-84792049/" target="_blank"

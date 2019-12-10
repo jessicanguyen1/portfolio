@@ -18,6 +18,11 @@ a {
   display: inline-block;
 }
 
+.active {
+  border-bottom: 6px solid black;
+  color: black;
+}
+
 body {
   margin-top: 25px;
   margin-left: 20px;
