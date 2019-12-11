@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        title Contact
+        include includes/head-tags.pug
+    body
+        .container
+            include includes/navigation.pug
+            #contact
+                h3 CONTACT ME
+                form(action="mailto:jessicanguyen320@gmail.com" method="POST"
+                enctype="text/plain")
+                    .row
+                        // name
+                        .columns.col-height
+                            input.u-full-width.dummy(type="text" placeholder="Enter your name")
+                            i.fas.fa-user
+                    .row
+                        // email
+                        .columns.col-height
+                            input.u-full-width.dummy( type="email" placeholder="Enter your email")
+                            i.fas.fa-envelope
+                    .row
+                        // subject
+                        .columns.col-height(style="height: 36px")
+                            input.u-full-width.dummy(type="text", placeholder="Enter subject")
+                            i.far.fa-arrow-alt-circle-right
+                    .row
+                        // message
+                        .columns.col-height(style="height: 130px")
+                            i.far.fa-edit.msg
+                            textarea#exampleMessage.u-full-width.dummy( placeholder="Write a message")
+
+                        // submit
+                        input.button-primary.u-full-width.dummy(type="submit" value="Send")
