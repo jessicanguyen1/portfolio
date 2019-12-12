@@ -19,9 +19,9 @@ app.get("/contact", (req, res, next) => {
   res.render("contact", { path: "/contact", title: "Contact" });
 });
 
-// app.get("/resume", (req, res, next) => {
-//   res.render("resume", { path: "/resume" });
-// });
+app.get("/resume", (req, res, next) => {
+  res.render("resume", { path: "/resume", title: "Resume" });
+});
 
 app.listen(PORT, () => {
   console.log(`Listening on ${PORT}`);
