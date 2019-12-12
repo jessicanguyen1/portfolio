@@ -8,15 +8,15 @@ app.set("views", "views");
 app.use(express.static("public"));
 
 app.get("/", (req, res, next) => {
-  res.render("index", { path: "/" });
+  res.render("index", { path: "/", name: "Jess", title: "JN" });
 });
 
 app.get("/portfolio", (req, res, next) => {
-  res.render("portfolio", { path: "/portfolio" });
+  res.render("portfolio", { path: "/portfolio", title: "Portfolio" });
 });
 
 app.get("/contact", (req, res, next) => {
-  res.render("contact", { path: "/contact" });
+  res.render("contact", { path: "/contact", title: "Contact" });
 });
 
 // app.get("/resume", (req, res, next) => {

@@ -10,12 +10,11 @@ a {
   color: #ffffff;
   text-decoration: none;
   letter-spacing: 0.2em;
+  padding-bottom: 5px;
 }
 
 .nine a:hover {
   color: black;
-  border-bottom: 6px solid black;
-  display: inline-block;
 }
 
 .active {
@@ -47,9 +46,6 @@ body {
 
 .right-nav {
   text-align: right;
-}
-
-a:hover {
 }
 
 .github {
