@@ -8,7 +8,7 @@ app.set("views", "views");
 app.use(express.static("public"));
 
 app.get("/", (req, res, next) => {
-  res.render("index", { path: "/", name: "Jess", title: "JN" });
+  res.render("index", { path: "/", title: "JN" });
 });
 
 app.get("/portfolio", (req, res, next) => {
