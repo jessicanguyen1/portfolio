@@ -18,7 +18,8 @@
   "homepage": "https://github.com/jessicanguyen1/portfolio#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "pug": "^2.0.4"
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.1"
